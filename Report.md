@@ -22,7 +22,7 @@ The following hyperparameters have been set for learning:
 * Learning-rate of 1e-3 is selected for both actor and critic networks.
 
 ## Results
-The plot shows that the agents were able to get score of ~38 on continuous basis from 40 episodes onwards 
+The plot shows that the agents were able to get score of ~38 on continuous basis from 40 episodes onwards.
 
 ![image](plot3.png)
 
