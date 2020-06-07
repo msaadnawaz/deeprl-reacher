@@ -22,9 +22,11 @@ The following hyperparameters have been set for learning:
 * Learning-rate of 1e-3 is selected for both actor and critic networks.
 
 ## Results
-The environment was solved in 105 episodes with an average score of 30.36 for last 100 episodes over all agents.
+The plot shows that the agents were able to get score of ~38 on continuous basis from 40 episodes onwards 
 
 ![image](plot3.png)
+
+The environment was solved in 105 episodes with an average score of 30.36 for last 100 episodes over all agents.
 
 ## Future Ideas
 For more stable performance, Trust Region Policy Optimization (TRPO) and Truncated Natural Policy Gradient (TNPG) can be implemented as discussed [here][link]. 
