@@ -1,14 +1,14 @@
-#Project Report
+# Project Report
 
-##Project Implementation
+## Project Implementation
 Different aspects of implementation have been mentioned below:
 
-####Learning Algorithm
+#### Learning Algorithm
 The learning algorithm used to train the agents is [Deep Deterministic Policy Gradient][ddpg]. The model used to train the agent consists of two sub neural networks (actor and critic) with three fully-connected layers with ReLu activation function used to trigger the output of intermediate states. The first layer has size 400, second has size 300 while the third layer being the output layer is a hyperbolic tan action vector with values between -1 and 1.
 
 [ddpg]: https://arxiv.org/abs/1509.02971
 
-####Hyperparameters
+#### Hyperparameters
 The following hyperparameters have been set for learning:
 
 * The replay buffer size is 1 million.
@@ -21,12 +21,12 @@ The following hyperparameters have been set for learning:
 
 * Learning-rate of 1e-3 is selected for both actor and critic networks.
 
-##Results
+## Results
 The environment was solved in 105 episodes with an average score of 30.36 for last 100 episodes over all agents.
 
 ![image](plot3.png)
 
-##Future Ideas
+## Future Ideas
 For more stable performance, Trust Region Policy Optimization (TRPO) and Truncated Natural Policy Gradient (TNPG) can be implemented as discussed [here][link]. 
 
 [link]: https://arxiv.org/abs/1604.06778 
